@@ -20,12 +20,12 @@ var api = new ParseServer({
     ios: [
       {
         pfx: 'cloud/BeautifulDietDev.p12',
-        bundleId: 'me.you.bundleId',
+        bundleId: 'Is.BeautifulDiet',
         production: false // Dev
       },
       {
         pfx: 'cloud/BeautifulDietPro.p12',
-        bundleId: 'me.you.bundleId',  
+        bundleId: 'Is.BeautifulDiet',  
         production: true // Prod
       }
     ]
